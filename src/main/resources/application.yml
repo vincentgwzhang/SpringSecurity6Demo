@@ -1,0 +1,7 @@
+spring:
+  main:
+    banner-mode: off
+  messages:
+    basename: i18n/application, i18n/exception
+  thymeleaf:
+    cache: false

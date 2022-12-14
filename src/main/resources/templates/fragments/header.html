@@ -1,0 +1,15 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:fragment="header-css">
+        <!-- this is header-css -->
+        <script type='text/javascript' th:src="@{/webjars/jquery/jquery.js}"></script>
+
+        <link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.css}" />
+        <script type='text/javascript' th:src="@{/webjars/bootstrap/js/bootstrap.js}"></script>
+        <title>[[#{title}]]</title>
+    </div>
+</head>
+<body>
+
+</body>
+</html>
